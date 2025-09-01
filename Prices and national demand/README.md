@@ -1,4 +1,4 @@
-# Prices and National Solar Energy Demand
+# Prices and National Solar Energy Supply
 
 This project demonstrates a simple **ETL pipeline with Python and Power BI**. The main goal is to transform electricity market data from **wide format to long format** using Python, and then visualize and analyze it in **Power BI** with DAX transformations.
 
@@ -53,8 +53,16 @@ This project demonstrates a simple **ETL pipeline with Python and Power BI**. Th
 * Hourly and daily (GWh).
 * Minimum, maximum, and average supply.
 * Hourly supply patterns across the day.
+* Solar energy supply behavior
   
   ![Demand Dashboard](./Images/Solar_energy_dashboard.png)
+
+## Business Insight
+This project provided key insights into the dynamics of solar energy supply in the Colombian electricity market. By analyzing demand and price patterns:
+* We observed that **solar generation has been steadily increasing since 2020.**
+* A clear trend emerged showing that this growth strongly influences **wholesale market prices (spot prices)** during daylight hours (7 AM – 6 PM).
+* Stakeholders initially considered investing in a solar farm to sell energy in the wholesale market. However, the analysis (together with other studies) revealed that the rapid expansion of solar capacity in the country is **driving oversupply during the day**, resulting in consistently low spot prices.
+* As a result, the strategy shifted: instead of selling exclusively into the wholesale market, solar projects are now being evaluated for direct supply to end customers through energy commercialization contracts—an attractive option for clients with daytime or office-hour demand profiles.
 
 ## Technologies Used
 
