@@ -45,13 +45,15 @@ This project demonstrates a simple **ETL pipeline with Python and Power BI**. Th
 * Average hourly and daily prices.
 * Maximum and minimum values.
 * Hour-by-hour price matrix for each month.
-  ![Prices Dashboard](./images/prices_dashboard.png)
+  
+  ![Prices Dashboard](./Images/prices_dashboard.png)
 
 ### Demand for solar electricity
 
 * Hourly and daily demand (GWh).
 * Minimum, maximum, and average demand.
 * Hourly demand patterns across the day.
+  
   ![Demand Dashboard](./Images/Solar_energy_dashboard.png)
 
 ## Technologies Used
