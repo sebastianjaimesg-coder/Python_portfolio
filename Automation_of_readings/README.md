@@ -35,9 +35,9 @@ Key dashboard features:
 - **Maximums and averages** per day and hour.  
 - Dynamic visualizations: time-series charts, pivot-style tables, treemaps.  
 
-Example of the dashboard:  
+ Dashboard:  
 
-![Power BI Dashboard](path/to/your/image.png)
+![Power BI Dashboard](Automation_of_readings/Images/BI.png)
 
 ---
 
