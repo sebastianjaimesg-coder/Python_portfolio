@@ -5,6 +5,12 @@ The pipeline ends with an **interactive Power BI dashboard** that provides real-
 
 ---
 
+## 🎯 Goal
+
+To automate the **collection and processing of energy consumption data**, minimizing manual work and ensuring that information is always ready for **real-time business analysis**.
+
+---
+
 ## 📂 Project Structure
 
 The repository contains three main **Python scripts**:
@@ -23,6 +29,14 @@ The repository contains three main **Python scripts**:
    - Aggregates all frontier files.  
    - Produces a **single total consumption matrix**.  
    - Used as the base for global analysis in BI.  
+
+## 📌 Workflow
+
+1. 📧 **Receive** hourly consumption matrices via email.  
+2. ⬇️ **Automatically download** attachments (`download_attachments.py`).  
+3. 📑 **Consolidate** files into a single Excel workbook (`consolidate_xlsx.py`).  
+4. ➕ **Aggregate** into one total consumption matrix (`sum_matrices.py`).  
+5. 📊 **Visualize** in Power BI.  
 
 ---
 
@@ -47,22 +61,6 @@ Key dashboard features:
   - `pandas`, `openpyxl`, `os`, `datetime`, `win32com` (Outlook connection).  
 - **Power BI** (visualization and interactive analytics).  
 - **Outlook** (data source).  
-
----
-
-## 📌 Workflow
-
-1. 📧 **Receive** hourly consumption matrices via email.  
-2. ⬇️ **Automatically download** attachments (`download_attachments.py`).  
-3. 📑 **Consolidate** files into a single Excel workbook (`consolidate_xlsx.py`).  
-4. ➕ **Aggregate** into one total consumption matrix (`sum_matrices.py`).  
-5. 📊 **Visualize** in Power BI.  
-
----
-
-## 🎯 Goal
-
-To automate the **collection and processing of energy consumption data**, minimizing manual work and ensuring that information is always ready for **real-time business analysis**.
 
 ---
 
