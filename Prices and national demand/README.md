@@ -70,5 +70,8 @@ This project provided key insights into the dynamics of solar energy supply in t
 * **Power BI (DAX, visualization)** → Data modeling and interactive dashboards.
 * **Excel** → Raw and processed datasets.
 
+---
+
+✍️ *Author: Sebastian Jaimes G.*
 
 
