@@ -11,11 +11,11 @@ This project demonstrates a simple **ETL pipeline with Python and Power BI**. Th
  ┣ 📄 processed_demand.xlsx  
  ┗ 📄 processed_prices.xlsx  
 📂 Images
- ┣ 📄 prices_dashboard.png
+ ┣ 📄 prices_dashboard.png 
  ┣ 📄 Solar_energy_dashboard.png
 
 📄 transform.py  
-📄 Prices and national demand.pbix  
+📄 Prices and national demand.pbix  [View Power BI Dashboard]
 ```
 
 * **transform.py** → Python script that reshapes raw Excel files (wide → long format).
