@@ -1,4 +1,4 @@
-# Prices and National Demand
+# Prices and National Solar Energy Demand
 
 This project demonstrates a simple **ETL pipeline with Python and Power BI**. The main goal is to transform electricity market data from **wide format to long format** using Python, and then visualize and analyze it in **Power BI** with DAX transformations.
 
@@ -10,6 +10,9 @@ This project demonstrates a simple **ETL pipeline with Python and Power BI**. Th
  ┣ 📄 original_prices.xlsx  
  ┣ 📄 processed_demand.xlsx  
  ┗ 📄 processed_prices.xlsx  
+📂 Images
+ ┣ 📄 prices_dashboard.png
+ ┣ 📄 Solar_energy_dashboard.png
 
 📄 transform.py  
 📄 Prices and national demand.pbix  
@@ -44,12 +47,12 @@ This project demonstrates a simple **ETL pipeline with Python and Power BI**. Th
 * Hour-by-hour price matrix for each month.
   ![Prices Dashboard](./images/prices_dashboard.png) --!add image
 
-### Electricity Demand
+### Demand for solar electricity
 
 * Hourly and daily demand (GWh).
 * Minimum, maximum, and average demand.
 * Hourly demand patterns across the day.
-  ![Demand Dashboard](./images/demand_dashboard.png) --!add image
+  ![Demand Dashboard](./images/Solar_energy_dashboard.png) --!add image
 
 ## Technologies Used
 
