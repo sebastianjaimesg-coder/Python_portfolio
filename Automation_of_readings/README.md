@@ -45,7 +45,7 @@ Key dashboard features:
 
  Dashboard:  
 
-![Power BI Dashboard](./Images/BI.png)
+![Power BI Dashboard](./Images/Dashboard.png)
 
 ## 🚀 Technologies Used
 
