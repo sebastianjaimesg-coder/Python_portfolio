@@ -9,22 +9,20 @@ To automate the **collection and processing of energy consumption data**, minimi
 
 ## 📂 Project Structure
 
-The repository contains three main **Python scripts**:
-
-1. **`download_attachments.py`**  
-   - Connects to **Outlook**.  
-   - Automatically downloads email **attachments** and stores them locally.  
-   - Attachments are **hourly consumption matrices** for different energy frontiers.  
-
-2. **`consolidate_xlsx.py`**  
-   - Reads all downloaded files.  
-   - **Consolidates them into a single Excel file**, each matrix in its own sheet.  
-   - Does not perform summations; it prepares clean data for BI use.  
-
-3. **`sum_matrices.py`**  
-   - Aggregates all frontier files.  
-   - Produces a **single total consumption matrix**.  
-   - Used as the base for global analysis in BI.  
+```
+Automation_of_readings/
+│── Attachments/              # Raw attachments (input)
+│── Processed_data/           # Processed data (output from .py files)                  
+│   ├── consolidated.xlsx
+│   └── total_consumption.xlsx
+│── Images/                   # Screenshots for the README
+│── Scripts/                  # All Python code
+│   ├── consolidate_xlsx.py
+│   ├── download_attachments.py
+│   └── sum_matrices.py
+│── BI.pbix                   # Power BI Project
+│── README.md
+```
 
 ## 📌 Workflow
 
