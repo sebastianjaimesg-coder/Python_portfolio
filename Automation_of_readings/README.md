@@ -37,7 +37,7 @@ Key dashboard features:
 
  Dashboard:  
 
-![Power BI Dashboard](Automation_of_readings/Images/BI.png)
+![Power BI Dashboard](./Images/BI.png)
 
 ---
 
