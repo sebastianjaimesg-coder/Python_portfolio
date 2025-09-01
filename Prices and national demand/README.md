@@ -6,24 +6,24 @@ This project demonstrates a simple **ETL pipeline with Python and Power BI**. Th
 
 ```
 📂 Data  
- ┣ 📄 original_demand.xlsx  
+ ┣ 📄 Original_energy_supply.xlsx  
  ┣ 📄 original_prices.xlsx  
- ┣ 📄 processed_demand.xlsx  
+ ┣ 📄 Processed_energy_supply.xlsx  
  ┗ 📄 processed_prices.xlsx  
 📂 Images
  ┣ 📄 prices_dashboard.png 
  ┣ 📄 Solar_energy_dashboard.png
 
 📄 transform.py  
-📄 Prices and national demand.pbix  [View Power BI Dashboard]
+📄 Prices and national energy supply.pbix  [View Power BI Dashboard]
 ```
 
 * **transform.py** → Python script that reshapes raw Excel files (wide → long format).
 * **Data/** → Contains input and output datasets:
 
-  * `original_demand` and `original_prices`: raw data.
-  * `processed_demand` and `processed_prices`: cleaned and reshaped data ready for Power BI.
-* **Prices and national demand.pbix** → Power BI report with dashboards and DAX transformations.
+  * `Original_energy_supply` and `original_prices`: raw data.
+  * `Processed_energy_supply` and `processed_prices`: cleaned and reshaped data ready for Power BI.
+* **Prices and national energy supply.pbix** → Power BI report with dashboards and DAX transformations.
 
 ## Workflow
 
@@ -48,11 +48,11 @@ This project demonstrates a simple **ETL pipeline with Python and Power BI**. Th
   
   ![Prices Dashboard](./Images/prices_dashboard.png)
 
-### Demand for solar electricity
+### Solar energy supply
 
-* Hourly and daily demand (GWh).
-* Minimum, maximum, and average demand.
-* Hourly demand patterns across the day.
+* Hourly and daily (GWh).
+* Minimum, maximum, and average supply.
+* Hourly supply patterns across the day.
   
   ![Demand Dashboard](./Images/Solar_energy_dashboard.png)
 
