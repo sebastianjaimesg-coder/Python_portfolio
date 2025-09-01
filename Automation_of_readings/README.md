@@ -3,13 +3,9 @@
 This project automates the **download, consolidation, and analysis** of hourly consumption files from multiple energy frontiers.  
 The pipeline ends with an **interactive Power BI dashboard** that provides real-time insights into total and per-frontier energy consumption.
 
----
-
 ## 🎯 Goal
 
 To automate the **collection and processing of energy consumption data**, minimizing manual work and ensuring that information is always ready for **real-time business analysis**.
-
----
 
 ## 📂 Project Structure
 
@@ -38,8 +34,6 @@ The repository contains three main **Python scripts**:
 4. ➕ **Aggregate** into one total consumption matrix (`sum_matrices.py`).  
 5. 📊 **Visualize** in Power BI.  
 
----
-
 ## 📊 Power BI Dashboard
 
 The final output is an **interactive Power BI report**, automatically updated from the processed Excel files.  
@@ -52,8 +46,6 @@ Key dashboard features:
  Dashboard:  
 
 ![Power BI Dashboard](./Images/BI.png)
-
----
 
 ## 🚀 Technologies Used
 
