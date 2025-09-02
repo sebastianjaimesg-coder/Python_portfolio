@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # 2. Load dataset
-df = pd.read_csv("your_data.csv")   # or generate fake data
+df = pd.read_csv("data.csv")  
 
 # 3. Explore data (quick checks)
 print(df.head())
@@ -36,6 +36,7 @@ plt.xticks(rotation=45)
 plt.show()
 
 # 7. Wrap up
-print("✅ Quick analysis done!")
+print("Quick analysis done!")
+
 
 
